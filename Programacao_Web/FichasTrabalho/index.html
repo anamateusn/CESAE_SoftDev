@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Mundo da Ana</title>
+
+    <!--imagem de fundo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!--link css-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <!--Cabeçalho-->
+<header class="cabecalho">
+    <h1><b>BEM-VINDOS AO MEU MUNDO</b></h1>
+    </header>
+    
+ <main class="conteudo-principal">
+
+<!--Main: Sobre mim-->
+   <section id="sobre-mim"> 
+    <h2>Quem sou eu?</h2>
+<p>O meu nome é <b>Ana</b>, tenho 30 anos e sou do Porto. Sou Licenciada em <b>Sociologia</b> na Faculdade de Letras da Universidade do Porto e sempre trabalhei dentro da minha área.</p>
+<p>Como em Portugal, as Ciências Sociais não são tão valorizadas, decidi inscrever-me na <b>CESAE</b> e mudar de vida!</p>
+<p>Venho de uma família grande, rodeada de pessoas e animais. Os meus pais têm 5 cães e recentemente, eu e o meu parceiro adotamos uma cadelinha.</p>
+<p>Chama-se <b>Luna</b> e tem 5 anos. Como podem ver, é a coisa mais fofa do mundo.</p>
+<div class="containerLuna">
+<img src="images/IMG_E8401.jpg" alt="Erro de Imagem" classe="imagemLuna"></div>
+</section>
+
+
+<!--Main: mais curiosidades-->
+<section id="curiosidades">
+    <h2>Mais Curiosidades</h2>
+
+<p>Alguns dos meus <b>interesses</b> são: </p>
+
+<ul>
+<li>Ler</li>
+<li>Fazer Yoga</li>
+<li>Viajar</li>
+</ul>
+
+<p>A minha <b>Formação Académica</b> é em áreas como:</p>
+
+<div classe="tabela">
+<table>
+    <tr>
+    <td>Desporto</td>
+    <td>Ciências Sociais</td>
+    </tr>
+
+    <tr>
+    <td>Marketing Digital</td>
+    </tr>
+</table>
+</div>
+
+<p>Podes encontrar a minha página do Instagram <a href="https://www.instagram.com/anamateusn" target="_blank" class="link-laranja"><b>aqui.</b></a></p>
+
+<p></p>
+
+</main>
+
+</section>
+
+<!--Formulário de contacto-->
+<section id="contacto">
+    <h3>Queres contactar-me?</h3>
+<p>Deixa a tua mensagem aqui.</p>
+<form action="processa.php" method="POST">
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome" name="nome"><pt><pt>
+<p></p>
+    <label for="email">E-mail: </label>
+    <input type="email" id="email" name="email"><pt><pt>
+<p></p>
+    <label for="mensagem">Em que posso ajudar?</label><p></p>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50" class="caixa-texto"></textarea>
+<p></p>
+<form action="/submit" method="post">
+    <button class="botaoFormulario" type="submit">Enviar</button>
+  </form>
+</form>
+</section>
+
+
+
+<!--Rodapé: agradecimento-->
+<p></p>
+<footer class="rodape"> 
+    Obrigada por teres vindo até aqui. Até breve!
+</footer>
+
+</body>
+</html>
+

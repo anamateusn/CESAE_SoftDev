@@ -1,0 +1,141 @@
+section, header, footer {
+    padding: 10px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+ 
+  ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+
+  body {
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-image: url('images/ChatGPT\ Image\ 15_04_2025\,\ 14_27_04.png');
+    background-repeat: repeat;
+    background-attachment: fixed; /* opcional: faz com que o fundo fique fixo ao scroll */
+    background-position: top left;
+    font-family: 'Playfair Display', serif;
+  }
+
+  header, section {
+    padding: 10px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white; /* FUNDO branco para o conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* opcional: sombra para destacar */
+    border-radius: 10px;
+  }
+
+
+ footer {
+  background-color: transparent;
+ }
+ 
+h1 {
+    color:white;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+    background-color: #f9b97a;
+    color: white;
+}
+
+h3 {
+  color: white;
+  font-size: x-large;
+}
+
+#contacto {
+  background-color: rgba(255, 255, 255, 0.3); /* fundo branco muito translúcido */
+  backdrop-filter: blur(2px); /* opcional: efeito de vidro */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: none;
+}
+
+
+.cabecalho {
+  background-color: rgba(255, 255, 255, 0.3); /* fundo branco muito translúcido */
+  backdrop-filter: blur(2px); /* opcional: efeito de vidro */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: none;
+}
+
+
+
+/*colorir link p instagram + alterar cor ao passar rato por cima */
+nav {
+    color:#ef8d3c;
+}
+
+.link-laranja {
+    color: #ef8d3c;
+    text-decoration: underline;
+    font-weight: bold;  
+}
+
+  .link-laranja:hover {
+    color: black;
+}
+
+
+/*Caixa de mensagem ajustada à visualização em ecrã pequeno */  
+
+.tabela {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .caixa-texto {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+
+/*Imagem Luna - ecrã grande lado esquerdo */
+/*Imagem Luna - ecrã pequeno centrada */  
+
+.containerLuna {
+    display: block;
+}
+
+.imagemLuna {
+    max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+    .containerLuna {
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+    }
+}
+
+/* Botão criada pelo CHATGPT*/
+
+
+  .botaoFormulario{
+    background-color: #ef8d3c;          /* Fundo laranja */
+    color: white;                   /* Texto branco */
+    border: 2px solid white;        /* Borda branco */
+    padding: 12px 24px;               /* Espaço interno (ajusta conforme necessário) */
+    font-size: 16px;                  /* Tamanho do texto */
+    text-transform: uppercase;        /* Letras maiúsculas (opcional) */
+    cursor: pointer;                 /* Mãozinha ao passar o rato */
+    transition: 0.3s ease;           /* Animação suave */
+    border-radius: 0;                /* Sem cantos arredondados (quadrado) */
+  }
